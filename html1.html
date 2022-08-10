@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>home</title>
+        <meta charset="UTF-8"/>
+        <meta http-equiv=""X-UA-Compatible: content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rrel="preconnect" href="https://fonts.gstatic.com" cross origin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&dispay=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="CSS/html1.css">
+</head>
+    <body>
+        <h2>What is html</h2>
+        <p>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages:</p>
+<h3>Basic Html code</h3>
+<img src="Images/html1.png" alt="html code" height="30%" width="50%" align="center";>
+<h3>Html Tags:</h3>
+<p>HTML is a markup language and makes use of various tags to format the content. These tags are enclosed within angle braces <Tag Name>.
+    Except few tags, most of the tags have their corresponding closing tags. <br>For example, <html> has its closing tag </html> and <body> tag has its closing tag </body> tag etc.
+
+    Above example of HTML document uses the following tags −</p>
+
+<button class="accordion"><xmp><!DOCTYPE...></xmp></button>
+<div class="panel">
+  <p>This tag defines the document type and HTML version.</p>
+</div><br><br>
+
+<button class="accordion"><xmp><html></xmp></button>
+  <div class="panel">
+<p><xmp>This tag encloses the complete HTML document and mainly comprises of document header which is represented by 
+  <head>...</head> and document body which is represented by <body>...</body> tags.</xmp></p>
+  </div><br><br>
+
+  <button class="accordion"><xmp> <head>  </xmp></button>
+  <div class="panel">
+    <p><xmp>The <title> tag is used inside the <head> tag to mention the document title.</xmp></p>
+  </div><br><br>
+  <button class="accordion"><xmp><title></xmp></button>
+    <div class="panel">
+      <p> <xmp>The <title> tag is used inside the <head> tag to mention the document title.</xmp></p>
+    </div><br><br>
+    <button class="accordion"><xmp><h1></xmp></button>
+      <div class="panel">
+        <p> <xmp>This tag represents the heading.</xmp> </p>
+      </div><br><br>
+      <button class="accordion"><xmp> <p>  </xmp></button>
+        <div class="panel">
+          <p> <xmp>This tag represents a paragraph.</xmp></p>
+        </div><br><br>
+<p>To learn HTML, you will need to study various tags and understand how they behave, while formatting a textual document. Learning HTML is simple as users have to learn the usage of different tags in order to format the text or images to make a beautiful webpage.
+
+    World Wide Web Consortium (W3C) recommends to use lowercase tags starting from HTML 4.</p>
+
+<a href="html2.html" class="next">Next &raquo;</a>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var panel = this.nextElementSibling;
+if (panel.style.display === "block") {
+panel.style.display = "none";
+} else {
+panel.style.display = "block";
+}
+});
+}
+</script> </body>
+</html>
+
